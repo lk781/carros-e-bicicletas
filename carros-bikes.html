@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros e Bicicletas</title>
+    <style>
+        :root {
+            --a1: #feb301;
+            --a2: #332200;
+            --p: #111;
+            --c: #b2b2b2;
+
+            --fonte-padrao: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            font-family: var(--fonte-padrao);
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        section.cb {
+            background-color: var(--p);
+            border-radius: 4px;
+            padding: 20px;
+            padding-bottom: 40px;
+            padding-top: 7px;
+            min-width: 100px;
+            max-width: 600px;
+            margin: auto;
+            color: white;
+            text-indent: 5px;
+        }
+
+        section a {
+            background-color: var(--a1);
+            text-decoration: none;
+            margin-left: 5px;
+            padding: 10px;
+            border-radius: 4px;
+            color: black;
+            transition: 0.8s;
+        }
+
+        section a:hover {
+            background-color: var(--a2);
+            text-decoration: underline;
+        }
+
+        strong {
+            color: var(--a1);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carros e Bicicletas</h1>
+    </header>
+
+    <main>
+        <section class="cb">
+
+            <h2>
+                Carro:<strong> R$ 1999</strong>
+            </h2>
+
+            <p>
+                Carro modelo <strong>2045.</strong> com <strong>200km</strong> rodados.
+            </p>
+
+            <br>
+
+            <a href="#">Comprar Carro</a>
+
+        </section>
+
+            <br>
+
+        <section class="cb">
+
+            <h2>
+                Bicicleta: <strong> R$ 199</strong>
+            </h2>
+
+            <p>
+                Bicicletas modelo <strong>2050,</strong> com <strong>20km</strong> rodados.
+            </p>
+
+            <br>
+
+            <a href="#">Comprar Bicicletas</a>
+        </section>
+
+    </main>
+
+</body>
+</html>
